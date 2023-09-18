@@ -1,0 +1,16 @@
+#add-todo-input {
+    border-color: #52B788;
+}
+
+#add-todo-input::placeholder{
+    color: #52B788;
+}
+
+#add-todo-btn {
+    color: #52b788; 
+    border-color: #52b788;
+}
+
+#add-todo-btn:hover{
+    color: #fff !important;
+}
