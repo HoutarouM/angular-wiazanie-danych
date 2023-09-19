@@ -2,7 +2,7 @@
   <div class="d-flex flex-row">
     <input
       type="text"
-      class="form-control m-2"
+      class="form-control m-1"
       id="add-todo-input"
       name="add-todo-input"
       placeholder="Type your todo"
@@ -10,6 +10,12 @@
       required
     />
 
-    <button class="m-2 btn btn-outline-success" id="add-todo-btn">Add</button>
+    <button
+      class="m-1 btn btn-outline-success"
+      id="add-todo-btn"
+      (click)="onSubmit()"
+    >
+      Add
+    </button>
   </div>
 </form>
